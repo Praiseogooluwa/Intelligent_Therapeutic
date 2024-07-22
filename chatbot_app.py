@@ -2,7 +2,7 @@ import streamlit as st
 import json
 from Intelligent_chatbot import predict_class, get_response, analyze_sentiment, recognize_entities
 
-st.title("Intelligent Therapeutic Chatbot")
+st.title("OG_Therapeutic Chatbot")
 
 # Load the intents from the intents.json file
 with open('intents.json', 'r') as file:
