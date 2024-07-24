@@ -18,13 +18,6 @@ from keras.models import load_model
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import spacy
 import datetime
-import random
-from transformers import GPTJForCausalLM, AutoTokenizer
-
-
-
-# Load spaCy model
-nlp = spacy.load("en_core_web_sm")
 
 # Load the data from the JSON file
 with open('intents.json', 'r') as file:
