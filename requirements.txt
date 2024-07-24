@@ -2,12 +2,12 @@ streamlit==1.36.0
 nltk==3.8.1
 tensorflow==2.17.0
 keras==3.4.1
-spacy==3.2.3
+spacy==3.7.5  # Upgraded for better compatibility
 numpy==1.26.4
 pandas==2.2.2
 scikit-learn==1.5.1
 matplotlib==3.9.1
 transformers==4.18.0
-pydantic==1.8.2
+pydantic==2.8.2  # Upgraded for better compatibility
 torch==1.11.0
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.2.0/en_core_web_sm-3.2.0.tar.gz
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.2.0/en_core_web_sm-3.2.0.tar.gz
