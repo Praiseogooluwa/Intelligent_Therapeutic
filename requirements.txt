@@ -1,0 +1,7 @@
+streamlit==1.36.0
+nltk==3.8.1
+tensorflow==2.17.0
+keras==3.4.1
+spacy==3.7.5
+numpy==1.26.4
+en-core-web-sm==3.7.1
