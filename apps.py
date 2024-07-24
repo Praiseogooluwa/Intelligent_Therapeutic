@@ -2,7 +2,7 @@ import streamlit as st
 import json
 from OG_chatbot import predict_class, get_response, analyze_sentiment, recognize_entities
 import random
-from transformers import GPTJForCausalLM, AutoTokenizer
+
 
 # Load spaCy model
 nlp = spacy.load("en_core_web_sm")
