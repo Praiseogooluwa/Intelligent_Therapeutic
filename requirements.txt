@@ -1,16 +1,5 @@
-streamlit==1.10.0
-json
-nltk==3.7
-numpy==1.21.2
-tensorflow==2.7.0
-keras==2.7.0
-spacy==3.2.1
-pickle
-datetime
-random
-
-# Additional dependencies required by Streamlit Cloud
 python==3.9.12
-vc==14.2=h21ff451_1
-libffi==3.4.4=hd77b12b_0
-openssl==3.0.13=h2bbff1b_0
+streamlit==1.10.0
+numpy==1.24.1
+altair==4.1.0
+shap==0.40.0
