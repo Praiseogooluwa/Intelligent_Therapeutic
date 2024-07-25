@@ -1,6 +1,6 @@
 nltk==3.7
-numpy==1.24.1
-tensorflow==2.7.0
+numpy==1.21.6
+tensorflow==2.17.0
 keras==2.7.0
 pickle==4.0
 datetime==4.3
