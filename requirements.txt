@@ -10,5 +10,4 @@ matplotlib==3.9.1
 transformers==4.18.0
 pydantic==2.8.2
 torch==2.4.0
-en-core-web-sm==3.7.0
 tokenizers==0.12.1
