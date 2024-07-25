@@ -19,9 +19,6 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import spacy
 import datetime
 
-# Add this in your setup script if necessary
-python -m spacy download en_core_web_sm
-
 # Load the data from the JSON file
 with open('intents.json', 'r') as file:
     data = json.load(file)
