@@ -1,11 +1,16 @@
-streamlit==1.36.0
-nltk==3.8.1
-tensorflow==2.17.0
-keras==3.4.1
-spacy==3.7.5
-numpy==1.26.4
-pandas==2.2.2
-scikit-learn==1.5.1
-matplotlib==3.9.1
-transformers==4.18.0
-tokenizers==0.11.6
+streamlit==1.10.0
+json
+nltk==3.7
+numpy==1.21.2
+tensorflow==2.7.0
+keras==2.7.0
+spacy==3.2.1
+pickle
+datetime
+random
+
+# Additional dependencies required by Streamlit Cloud
+python==3.9.12
+vc==14.2=h21ff451_1
+libffi==3.4.4=hd77b12b_0
+openssl==3.0.13=h2bbff1b_0
