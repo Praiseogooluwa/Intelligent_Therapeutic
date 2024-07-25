@@ -5,7 +5,7 @@ import random
 
 
 # Load spaCy model
-nlp = spacy.load("en_core_web_sm")
+#nlp = spacy.load("en_core_web_sm")
 
 # Load the intents from the intents.json file
 with open('intents.json', 'r') as file:
